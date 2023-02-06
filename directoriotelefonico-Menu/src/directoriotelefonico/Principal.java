@@ -14,6 +14,7 @@ public class Principal {
         String telefono = "", nombre = "", apellidos = "";
 
         while (!salir) {
+
             System.out.println("\n--- Gestionar Directorio Telefónico ---\n");
             System.out.println("1. Agregar persona");
             System.out.println("2. Modificar persona");
