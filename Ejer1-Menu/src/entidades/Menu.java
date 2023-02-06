@@ -14,14 +14,15 @@ public class Menu {
         do {
             System.out.println("Seleccione una opcion para continuar - 1 Añadir - 2-Lista -3-Salir");
             opcion = input.nextInt();
+
             switch (opcion){
 
                 case 1:
                     System.out.println("Añadir una mascota a la lista");
                     mascota.crearMascota();
 
-                    System.out.println("Gracias su mascota fue añadida con exito. Para volver al menu presione S," +
-                            " de lo contrario cualquier tecla para salir");
+                    System.out.println("¡Gracias! Su mascota fue añadida con exito. Para volver al menu presione S," +
+                            " de lo contrario, cualquier tecla para salir");
                     termina= input.next();
 
                     break;
