@@ -20,8 +20,10 @@ public class Main {
 
         }while (fin.equalsIgnoreCase("Si"));
 
-        listaLibros.verListadoLibros();
+        listaLibros.verListadoLibros(); //No tienen sus titulos aca, porque los tienen en sus metodos
+
         listaLibros.LibrosMenor150P();
+
         listaLibros.LibrosMayor300P();
 
     }

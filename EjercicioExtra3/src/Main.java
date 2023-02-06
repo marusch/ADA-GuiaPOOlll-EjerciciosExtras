@@ -23,8 +23,11 @@ public class Main {
 
         }while (fin.equalsIgnoreCase("S"));
 
+
         listado.listaExistente();
+
         listado.StockMenor3();
+
         listado.StockMayor10();
     }
 }

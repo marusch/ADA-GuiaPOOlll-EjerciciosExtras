@@ -15,7 +15,7 @@ public class Main {
 
             listas.CrearSerie();
 
-            System.out.println("Si desea ingresar otro serie, Presione S, de lo contrario cualquier tecla para salir.");
+            System.out.println("Si desea ingresar otra serie, Presione S, de lo contrario cualquier tecla para salir: ");
             fin = input.next();
 
         }while (fin.equalsIgnoreCase("S"));

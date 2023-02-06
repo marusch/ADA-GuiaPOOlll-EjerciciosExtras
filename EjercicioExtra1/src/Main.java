@@ -29,5 +29,6 @@ public class Main {
 
         System.out.println("\n" + "Lista de mascotas menores de 5 años: ");
         mascota.menor5años();
+
     }
 }
